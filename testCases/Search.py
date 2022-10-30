@@ -1,7 +1,7 @@
 import unittest
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
-import HtmlTestRunner
+import HtmlTestRunner   # To generate HTML reports
 
 
 class Practice(unittest.TestCase):
@@ -33,4 +33,5 @@ class Practice(unittest.TestCase):
 
 
 if __name__ == '__main__':
+    # To generate HTML Reports
     unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output="C:/Users/Ammar/PycharmProjects/seleniumTest/Reports"))
